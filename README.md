@@ -11,8 +11,8 @@ Analysis program for Bikeshare
 User input leads to different survey figures and analyses
 
 ### Files used
-Include the files used
 csv-data: chicago, new_york_city, washington
+ignore: all csv data and .gitignore.txt
 
 ### Credits
 https://www.udacity.com/
