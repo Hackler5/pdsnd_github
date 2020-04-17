@@ -3,9 +3,9 @@ import pandas as pd
 #import numpy as np
 #import datetime as dt
 
-CITY_DATA = { 'chicago': 'chicago.csv',
+CITY_DATA = {'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
-              'washington': 'washington.csv' }
+              'washington': 'washington.csv'}
 
 def get_filters():
     """
@@ -46,7 +46,7 @@ def get_filters():
 
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
     go_on_weekday = 1
-    weekdays = ("Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday")
+    weekdays = ("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday")
     while go_on_weekday == 1:
         weekday = input("Please enter your day: ")
         if weekday in weekdays:
