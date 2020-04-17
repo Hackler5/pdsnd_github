@@ -99,6 +99,7 @@ def load_data(city, month, weekday):
 
 #-------------------------------------------------------------------------------
 
+#method time_stats show time relevant data
 def time_stats(df):
     """Displays statistics on the most frequent times of travel."""
 
