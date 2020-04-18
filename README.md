@@ -12,7 +12,7 @@ User input leads to different survey figures and analyses
 
 ### Files used
 csv-data: chicago, new_york_city, washington
-ignore: all csv data and .gitignore.txt
+ignore: all csv data and .gitignore
 
 ### Credits
 https://www.udacity.com/
